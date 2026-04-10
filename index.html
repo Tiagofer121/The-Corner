@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>THE CORNER</title>
+</head>
+<body>
+    
+    <header class="menu-barba-negra">
+        <div class="izquierda">
+            <h5 class="titulo-barba-negra"><span class="letra-grande-titulo">T</span>HE</h5>
+            <h5 class="titulo-barba-negra-2"><span class="letra-grande-titulo">C</span>ORNER</h5>
+
+
+        </div>
+        <div class="derecha">
+            <a href="#Carta" class="opciones-menu">Carta</a>
+            <a href="#Galeria" class="opciones-menu">Galería</a>
+            <a href="#Horarios" class="opciones-menu">Horarios</a>
+            <a href="#Reservar" class="reservar-header-a">Reservar</a>
+        </div>
+        <div class="derecha-celular">
+            <svg class="menu-svg" xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none">
+            <path d="M4 12H20M4 8H20M4 16H12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="menu-celular">
+            <a href="#Carta" class="menu-header-celular">Carta</a>
+            <a href="#Galeria" class="menu-header-celular">Galeria</a>
+            <a href="#Horarios" class="menu-header-celular">Horarios</a>
+            <a href="#Reservar" class="menu-header-celular" id="reservar-celular-header">Reservar</a>
+
+        </div>
+    </header>
+
+    <section class="inicio">
+        <div class="contenedor">
+        <div class="logo-inicio">
+            <h1 class="logo-inicio-h1">THE CORNER</h1>
+            <div class="linea-calavera-linea">
+                <div class="linea"></div>
+            <div class="logo-calavera-svg">
+            </div>
+            <div class="linea"></div>
+            </div>
+
+            <div class="eventos"><p class="eventos-p">Hamburguesa · Cerveza</p><p class="eventos-p-abajo">El proceso importa.
+El sabor manda</p></div>
+
+        </div>
+
+        <div class="abierto-cerrado" data-apertura="19" data-cierre="00">
+            <div class="abierto" id="estado-abierto"><div class="punto-tintineo-verde"></div><p class="abierto-p">ABIERTO</p></div>
+            <div class="cerrado" id="estado-cerrado"><div class="punto-tintineo-rojo"></div><p class="abierto-p">CERRADO | ABRIMOS A LAS 19</p></div>
+
+        </div>
+
+        <div class="opciones-reservar-carta">
+            <a href="#Reservar" class="reservar-a-inicio">Reservar</a>
+            <a href="#Carta" class="ver-carta-a-inicio">Ver Carta</a>
+        </div>
+
+        <div class="explorar">
+            <p class="explorar-p">Hamburguesea</p>
+            <div class="linea-explorar"></div>
+        </div>
+
+        <div class="fondo-degradado"></div>
+        </div>
+    </section>
+
+    <section id="Horarios" class="Horarios">
+    <div class="navegamos-div">
+            <p class="navegamos">Te Esperamos</p><svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" version="1.1">
+<path d="M0 16q0 2.624 0.8 5.056t2.304 4.416 3.456 3.456 4.416 2.304 5.024 0.8q2.624 0 5.056-0.8t4.416-2.304 3.424-3.456 2.304-4.416 0.8-5.056v-4l-8 8h3.296q-1.088 3.072-3.552 5.152t-5.728 2.656v-9.792h1.984q0.832 0 1.408-0.576t0.608-1.44-0.608-1.408-1.408-0.576h-1.984v-2.368q1.76-0.608 2.88-2.144t1.12-3.488q0-2.24-1.504-3.936t-3.712-1.984q-0.416-0.096-0.8-0.096t-0.8 0.096q-2.208 0.32-3.712 1.984t-1.472 3.936q0 1.92 1.088 3.456t2.912 2.176v2.368h-2.016q-0.832 0-1.408 0.576t-0.576 1.408 0.576 1.44 1.408 0.576h2.016v9.792q-3.264-0.544-5.728-2.656t-3.584-5.152h3.296l-8-8v4zM14.016 6.016q0-0.832 0.576-1.408t1.408-0.608 1.408 0.608 0.608 1.408-0.608 1.408-1.408 0.576-1.408-0.576-0.576-1.408z"/>
+</svg>
+    </div>
+
+    <div class="h5-horario">
+        <h5 class="horario">Horarios</h5>
+    
+    </div>
+
+    <div class="linea-calavera-linea">
+            <div class="linea" id="linea-hora-izquierda"></div>
+            <div class="logo-calavera-svg">
+            </div>
+            <div class="linea" id="linea-hora-derecha"></div>
+    </div>
+
+    <div class="abierto-cerrado-2"data-apertura="19" data-cierre="00">
+        
+            <div class="abierto" id="estado-abierto-2"><div class="punto-tintineo-verde"></div><p class="abierto-p">ABIERTO</p></div>
+            <div class="cerrado" id="estado-cerrado-2"><div class="punto-tintineo-rojo"></div><p class="abierto-p">CERRADO | ABRIMOS A LAS 19</p></div>
+    </div>
+
+    <div class="horario-dias">
+        <div class="dias">
+            <p class="dia-p">Lunes</p>
+            <p class="horario-p">19Hs-00Hs</p>
+        </div>
+        <div class="dias">
+            <p class="dia-p">Martes</p>
+            <p class="horario-p">19Hs-00Hs</p>
+        </div>
+        <div class="dias">
+            <p class="dia-p">Miercoles</p>
+            <p class="horario-p">19Hs-00Hs</p>
+        </div>
+        <div class="dias">
+            <p class="dia-p">Jueves</p>
+            <p class="horario-p">19Hs-00Hs</p>
+        </div>
+        <div class="dias">
+            <p class="dia-p">Viernes</p>
+            <p class="horario-p">19Hs-00Hs</p>
+        </div>
+        <div class="dias">
+            <p class="dia-p">Sabado</p>
+            <p class="horario-p">19Hs-00Hs</p>
+        </div>
+        <div class="dias">
+            <p class="dia-p">Domingo</p>
+            <p class="horario-p">19Hs-00Hs</p>
+        </div>
+    </div>
+
+    </section>
+
+    <section class="Carta" id="Carta">
+        <div class="nuestra-carta-el-tesoro">
+            <div class="el-tesoro"><p class="tesoro">Especialidades de la casa</p></div>
+        </div>
+        <div class="titulo-carta"><h5 class="Nuestra-carta">Nuestra Carta</h5></div>
+        <div class="lineas-menu-carta-ancla">
+        <div class="lineas-menu" id="linea-hora-izquierda"></div>
+        <svg class="ancla-menu" xmlns="http://www.w3.org/2000/svg" fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" version="1.1">
+<path d="M0 16q0 2.624 0.8 5.056t2.304 4.416 3.456 3.456 4.416 2.304 5.024 0.8q2.624 0 5.056-0.8t4.416-2.304 3.424-3.456 2.304-4.416 0.8-5.056v-4l-8 8h3.296q-1.088 3.072-3.552 5.152t-5.728 2.656v-9.792h1.984q0.832 0 1.408-0.576t0.608-1.44-0.608-1.408-1.408-0.576h-1.984v-2.368q1.76-0.608 2.88-2.144t1.12-3.488q0-2.24-1.504-3.936t-3.712-1.984q-0.416-0.096-0.8-0.096t-0.8 0.096q-2.208 0.32-3.712 1.984t-1.472 3.936q0 1.92 1.088 3.456t2.912 2.176v2.368h-2.016q-0.832 0-1.408 0.576t-0.576 1.408 0.576 1.44 1.408 0.576h2.016v9.792q-3.264-0.544-5.728-2.656t-3.584-5.152h3.296l-8-8v4zM14.016 6.016q0-0.832 0.576-1.408t1.408-0.608 1.408 0.608 0.608 1.408-0.608 1.408-1.408 0.576-1.408-0.576-0.576-1.408z"/></svg>
+        <div class="lineas-menu" id="linea-hora-derecha"></div>
+        
+        </div>
+
+        <div class="carta-carta">
+
+    <!-- BOTONES -->
+     <div class="carta-tab-contenedor">
+    <div class="carta-tab">
+        <button class="opciones-carta activo" data-tab="comida">Comida</button>
+        <button class="opciones-carta" data-tab="bebida">Bebida</button>
+        <button class="opciones-carta" data-tab="postre">Postre</button>
+    </div>
+    </div>
+
+    <div class="contenido-tabs">
+        
+        <div class="tab-contenido activo" id="comida">
+
+        <div class="lineas-menu-carta-ancla-informacion">
+        <div class="lineas-menu" id="linea-hora-izquierda"></div>
+                        <p class="texto-titulo-carta">Comida</p>
+        <div class="lineas-menu" id="linea-hora-derecha"></div>
+        
+        </div>
+
+        <div class="tabs-comida-contenedor">
+            <div class="tabs-comida">
+        <button class="opciones-carta-platos activo2" data-tab="Hamburguesas">Hamburguesas</button>
+        <button class="opciones-carta-platos" data-tab="Para-picar">Para Picar</button>
+        <button class="opciones-carta-platos" data-tab="Carnes">Carnes</button>
+            </div>
+        </div>
+
+        <div class="comida-cards activo2" id="Hamburguesas">
+        
+        <div class="cards-grid">
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$290</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">CHEESE BURGER</h5>
+        <p class="ingredientes-cards">Medallón de carne · Ketchup · Mostaza · Cebolla · Pepino</p>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Picante">Picante</p>
+            <p class="etiquetas-p" id="Popular">Popular</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+    <img src="https://png.pngtree.com/png-vector/20240829/ourmid/pngtree-delicious-and-testy-cheese-burger-png-image_13659847.png" alt="" class="imagen-card-png">
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$420</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">LA BBQ</h5>
+        <p class="ingredientes-cards">Medallón de carne · Bacon · Salsa BBQ · Aros de cebolla</p>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Temporada">Temporada</p>
+            <p class="etiquetas-p" id="Recomendado">Recomendado</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+    <img src="https://png.pngtree.com/png-clipart/20240901/original/pngtree-hamburger-png-image_15905798.png" alt="" class="imagen-card-png">
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$350</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">THE CORNER</h5>
+        <p class="ingredientes-cards">Medallón de carne · Chedar · Tomate · Huevo · Lechuga · Palta · Cebolla · Salsa The Corner</p>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Picante">Picante</p>
+            <p class="etiquetas-p" id="Sin-gluten">Sin gluten</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+    <img src="https://png.pngtree.com/png-clipart/20230928/original/pngtree-burger-png-images-png-image_13164941.png" alt="" class="imagen-card-png">
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$480</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">CHICKER MEX</h5>
+        <p class="ingredientes-cards">Pollo roborzado · Tomate · Lechuga · Cebolla · Palta · Mayonesa</p>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Recomendado">Recomendado</p>
+            <p class="etiquetas-p" id="Sin-gluten">Sin gluten</p>
+        </div>
+        
+    </div>
+    <div class="imagen-card">
+    <img src="https://png.pngtree.com/png-clipart/20240830/original/pngtree-hamburger-png-image_15881307.png" alt="" class="imagen-card-png">
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$480</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">MIA</h5>
+        <p class="ingredientes-cards">Medallon de carne o veggie · Extra burger <span class="precio-mia">  120$</span> · Lechuga, Tomate, Huevo, Cebolla, Cheddar, Palta, Bacon, Pepino<span class="precio-mia">  50$</span></p>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Recomendado">Armala como quieras</p>
+        </div>
+        
+    </div>
+    <div class="imagen-card">
+    <img src="https://www.pngkey.com/png/full/23-230264_image-result-for-burger-transparent-hamburguesa-con-queso.png" alt="" class="imagen-card-png">
+
+    </div>
+</div>
+
+<div class="cards" id="cards-vegano">
+    <div class="precio-card"><p class="precio-p-card">$310</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">LA PROVOCADORA</h5>
+        <p class="ingredientes-cards">Provolone Reborzado · Tomate confitado · Rúcula · Cebolla caramelizada · Alioli</p>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Vegano">Vegana</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+    <img src="https://png.pngtree.com/png-clipart/20250110/original/pngtree-delicious-veggie-burger-with-sesame-bun-lettuce-tomato-onion-isolated-on-png-image_19968212.png" alt="" class="imagen-card-png">
+
+
+    </div>
+</div>
+
+
+
+
+                    </div>
+
+        </div>
+
+        <!-- PESCADOS -->
+        <div class="comida-cards" id="Para-picar">
+        
+        <div class="cards-grid">
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$290</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">PAPAS RÚSTICAS</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Picante">Picante</p>
+            <p class="etiquetas-p" id="Popular">Popular</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+    <img src="https://burger54.com.ar/wp-content/uploads/2022/07/Papas-rusticas-1-1.png" alt="" class="imagen-card-png">
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$390</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">PAPAS THE CORNER</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Temporada">Temporada</p>
+            <p class="etiquetas-p" id="Recomendado">Recomendado</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$350</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">BONIATOS FRITOS</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Picante">Picante</p>
+            <p class="etiquetas-p" id="Sin-gluten">Sin gluten</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+    <img src="https://png.pngtree.com/png-vector/20250725/ourlarge/pngtree-delicious-sweet-potato-chips-food-photography-png-image_16848438.webp" alt="" class="imagen-card-png">
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$480</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">AROS DE CEBOLLA</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Recomendado">Recomendado</p>
+            <p class="etiquetas-p" id="Sin-gluten">Sin gluten</p>
+        </div>
+        
+    </div>
+    <div class="imagen-card">
+    <img src="https://png.pngtree.com/png-clipart/20250228/original/pngtree-onion-rings-and-fries-png-image_20530087.png" alt="" class="imagen-card-png">
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$480</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">BUÑUELOS DE ALGA</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Recomendado">Armala como quieras</p>
+        </div>
+        
+    </div>
+    <div class="imagen-card">
+    <img src="https://deveggievilafranca.com/wp-content/uploads/2025/11/bunuelos-sabor-bacalao-vrave-Distribuidor-Proveedor-Distribuidor-vegano-Taula-Verda-vegana-Amazing-Foods-Espana-Barcelona.png" alt="" class="imagen-card-png">
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$310</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">BASTONES DE MUZZARELA</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Vegano">Vegana</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+    <img src="https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$kJX356bg/200/200/original?country=pr" alt="" class="imagen-card-png">
+
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$350</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">PANCHO DE POLLO</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Picante">Picante</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+    <img src="https://png.pngtree.com/png-vector/20240330/ourmid/pngtree-marinated-chicken-skewers-herbs-purple-close-up-png-image_12071099.png" alt="" class="imagen-card-png">
+
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$210</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">RABAS</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Recomendado">Recomendado</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+    <img src="https://froxa.com/wp-content/uploads/2024/03/Rabas-1Kgcon-Limon-3-sin-fondo.png" alt="" class="imagen-card-png">
+
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$270</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">MINIATURAS DE PESCADO</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Recomendado">Recomendado</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+
+
+    </div>
+</div>
+
+                    </div>
+
+        </div>
+
+        <!-- MASAS -->
+        <div class="comida-cards" id="Carnes">
+                <div class="cards-grid">
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$290</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">MILANESA CLASICA</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Popular">Popular</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+    <img src="https://png.pngtree.com/png-clipart/20250430/original/pngtree-crispy-chicken-schnitzel-with-french-fries-for-fast-food-and-tasty-png-image_20902461.png" alt="" class="imagen-card-png">
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$390</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">MILANESA NAPOLITANA</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Recomendado">Recomendado</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+<img src="https://www.chalito.es/wp-content/uploads/2025/07/Mila_Napolitana_RGB-1024x1024.png" class="imagen-card-png" alt="">
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$350</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">CHIVITO COMPLETO</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Recomendado">Recomendado</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+    <img src="https://pedidosya.dhmedia.io/image/pedidosya/food/cuisines/MC_chivitos.png" id="imagen-png-rotacion" alt="" class="imagen-card-png">
+
+    </div>
+</div>
+
+
+                </div>       
+         </div>
+
+
+        </div>
+
+        <div class="tab-contenido" id="bebida">
+
+        <div id="linea-bebida-postre" class="lineas-menu-carta-ancla-informacion">
+        <div class="lineas-menu" id="linea-hora-izquierda"></div>
+                        <p class="texto-titulo-carta">Bebidas</p>
+        <div class="lineas-menu" id="linea-hora-derecha"></div>
+        
+        </div>
+
+        <div class="menuTabsX9">
+
+    <!-- botones -->
+    <div class="menuTabsX9-nav">
+        <button class="menuTabsX9-btn activoX9" data-x9="beerX9">Cerveza</button>
+        <button class="menuTabsX9-btn" data-x9="otersX9">Otras</button>
+
+    </div>
+
+    <div class="menuTabsX9-content">
+
+        <div class="menuTabsX9-panel activoX9" id="beerX9">
+        <div class="cards-grid">
+
+
+
+        </div>
+        </div>
+
+
+        <div class="menuTabsX9-panel" id="otersX9">
+        <div class="cards-grid">
+
+
+
+        </div>
+        </div>
+
+    </div>
+
+        </div>
+        
+
+</div>
+
+        <div class="tab-contenido" id="postre">
+
+        <div id="linea-bebida-postre" class="lineas-menu-carta-ancla-informacion">
+        <div class="lineas-menu" id="linea-hora-izquierda"></div>
+                        <p class="texto-titulo-carta">Postres</p>
+        <div class="lineas-menu" id="linea-hora-derecha"></div>
+        
+        </div>
+
+        <div class="cards-grid" id="cards-grid">
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$290</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">CHEESECAKE</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Recomendado">Recomendado</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+    <img src="https://midelcookies.com/wp-content/uploads/2017/03/Strawberry-Cheese-Cake.png" id="imagen-png-rotacion" alt="" class="imagen-card-png">
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$3290</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">OREO</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Recomendado">Recomendado</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+    <img src="https://png.pngtree.com/png-vector/20241120/ourmid/pngtree-rich-and-creamy-oreo-cheesecake-slice-png-image_14434512.png" id="imagen-png-rotacion" alt="" class="imagen-card-png">
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$3290</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">SELVA NEGRA</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Recomendado">Recomendado</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+    <img src="https://png.pngtree.com/png-clipart/20250115/original/pngtree-rich-layered-black-forest-dessert-png-image_19949555.png" id="imagen-png-rotacion" alt="" class="imagen-card-png">
+
+    </div>
+</div>
+
+<div class="cards">
+    <div class="precio-card"><p class="precio-p-card">$3290</p></div>
+    <div class="informacion-cards">
+        <h5 class="titulo-card">FLAN CON DDL</h5>
+        <div class="cards-etiquetas">
+            <p class="etiquetas-p" id="Recomendado">Recomendado</p>
+        </div>
+    </div>
+    <div class="imagen-card">
+    <img src="https://png.pngtree.com/png-clipart/20250104/original/pngtree-creamy-spanish-flan-with-sweet-caramel-sauce-on-a-plate-png-image_19996285.png" id="imagen-png-rotacion" alt="" class="imagen-card-png">
+
+    </div>
+</div>
+
+        </div>
+        
+    </div>
+
+     </div>
+
+
+
+        
+    </div>
+
+    </section>
+
+    <section class="Galeria" id="Galeria">
+
+        <div class="lineas-menu-galeria">
+        <div class="lineas-menu" id="linea-hora-izquierda"></div>
+        <svg class="ancla-menu" xmlns="http://www.w3.org/2000/svg" fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" version="1.1">
+<path d="M0 16q0 2.624 0.8 5.056t2.304 4.416 3.456 3.456 4.416 2.304 5.024 0.8q2.624 0 5.056-0.8t4.416-2.304 3.424-3.456 2.304-4.416 0.8-5.056v-4l-8 8h3.296q-1.088 3.072-3.552 5.152t-5.728 2.656v-9.792h1.984q0.832 0 1.408-0.576t0.608-1.44-0.608-1.408-1.408-0.576h-1.984v-2.368q1.76-0.608 2.88-2.144t1.12-3.488q0-2.24-1.504-3.936t-3.712-1.984q-0.416-0.096-0.8-0.096t-0.8 0.096q-2.208 0.32-3.712 1.984t-1.472 3.936q0 1.92 1.088 3.456t2.912 2.176v2.368h-2.016q-0.832 0-1.408 0.576t-0.576 1.408 0.576 1.44 1.408 0.576h2.016v9.792q-3.264-0.544-5.728-2.656t-3.584-5.152h3.296l-8-8v4zM14.016 6.016q0-0.832 0.576-1.408t1.408-0.608 1.408 0.608 0.608 1.408-0.608 1.408-1.408 0.576-1.408-0.576-0.576-1.408z"/></svg>
+        <div class="lineas-menu" id="linea-hora-derecha"></div>
+        
+        </div>
+
+        <div class="titulo-galeria"><h5 class="Nuestra-galeria">GALERIA</h5></div>
+
+        <div class="nuestra-carta-galeria">
+            <div class="galeria-nuestra"><p class="gale-ria">Nuestra Esencia</p></div>
+        </div>
+
+        <div class="galeria-grid">
+
+            
+
+            <div class="galeria-item" data-index="1">
+                <img src="galeria/img-1.jpg" alt="Platos principales" loading="lazy">
+
+            </div>
+
+            <div class="galeria-item" data-index="2">
+                <img src="galeria/img-2.jpg" alt="Cócteles y bebidas" loading="lazy">
+
+            </div>
+
+            <div class="galeria-item" data-index="3">
+                <img src="galeria/img-3.jpg" alt="Noche en el local" loading="lazy">
+
+            </div>
+
+            <div class="galeria-item" data-index="4">
+                <img src="galeria/img-4.jpg" alt="Platos especiales" loading="lazy">
+
+            </div>
+
+            <div class="galeria-item" data-index="5">
+                <img src="galeria/img-5.jpg" alt="Platos especiales" loading="lazy">
+
+            </div>           
+
+            <div class="galeria-item" data-index="6">
+                <img src="galeria/img-6.jpg" alt="Platos especiales" loading="lazy">
+
+            </div>             
+
+            
+
+        </div>
+
+        <div class="espaciox9ds"></div>
+
+    </section>
+
+    <section class="reservar" id="Reservar">
+
+        <div class="lineas-menu-galeria">
+        <div class="lineas-menu" id="linea-hora-izquierda"></div>
+        <div class="lineas-menu" id="linea-hora-derecha"></div>
+        
+        </div>
+
+        <div class="titulo-galeria"><h5 class="Nuestra-galeria">RESERVAR</h5></div>
+
+        <div class="nuestra-carta-galeria">
+            <div class="galeria-nuestra"><p class="gale-ria">Visitanos</p></div>
+        </div>
+
+        <div class="reservas-container">
+            <div class="reservar-form" id="formulario-izquierda">
+
+                <p class="porque-reservar">¿Porque Reservar?</p>
+                <p class="porque-reservar-subtitulo">Asegurate tu lugar en The Corner. Las mejores Hamburguesas y Cervezas que probaras</p>
+
+        
+
+        <div class="info-item">
+          <span class="info-icon">📞</span>
+          <div class="info-text">
+            <strong>Teléfono</strong>
+            <!-- 👇 CAMBIAR número -->
+            <span><a href="tel:+59899123456">+598 99 123 456</a></span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="info-icon">💬</span>
+          <div class="info-text">
+            <strong>WhatsApp</strong>
+            <span>Respuesta inmediata</span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="info-icon">👥</span>
+          <div class="info-text">
+            <strong>Grupos grandes</strong>
+            <span>Coordinamos eventos y celebraciones</span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="info-icon">⏰</span>
+          <div class="info-text">
+            <strong>Política de cancelación</strong>
+            <span>Avisá con 2 horas de anticipación</span>
+          </div>
+        </div>
+
+        <a href="https://wa.me/59892933423?text=Hola!%20Quiero%20hacer%20una%20reserva%20en%20Barba%20Negra%20🍽️" class="btn-wsp" target="_blank">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
+          Reservar por WhatsApp
+        </a>
+
+            </div>
+
+            <div class="reservar-form" id="formulario-contenedor">
+                <p class="f-reserva-tu-mesa-p-reservar">Te espera una mesa</p>
+                <div class="formulario">
+                    <p class="f-reserva-tu-mesa-p">Nombre Completo</p>
+                        <input type="text" id="nombre" class="input-reservar" placeholder="Capitan Sparrow">
+                    <div class="fecha-formulario">
+                        <div class="fecha">
+                            <p class="f-reserva-tu-mesa-p">Fecha</p>
+                                <input class="input-reservar" type="date" id="fecha">
+                        </div>
+                        <div class="hora">
+                            <p class="f-reserva-tu-mesa-p">Hora</p>
+                            <select class="select-reservar" id="hora">
+                                <option value="">Elegir</option>
+                                <option value="19:00">19:00</option>
+                                <option value="19:30">19:30</option>
+                                <option value="20:00">20:00</option>
+                                <option value="20:30">20:30</option>
+                                <option value="21:00">21:00</option>
+                                <option value="21:30">21:30</option>
+                                <option value="22:00">22:00</option>
+                                <option value="22:30">22:30</option>
+                                <option value="23:00">23:00</option>
+                                <option value="23:30">23:30</option>
+
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="personas-telefono-formulario">
+                        <div class="personas">
+                            <p class="f-reserva-tu-mesa-p">Personas</p>
+                           <select id="personas" class="select-reservar">
+                                <option value="1">1 Personas</option>
+                                <option value="2">2 Personas</option>
+                                <option value="3">3 Personas</option>
+                                <option value="4">4 Personas</option>
+                                <option value="5">5 Personas</option>
+                                <option value="6">6 Personas</option>
+                                <option value="7-10">7-10 Personas</option>
+                                <option value="10+">10+ Personas</option>
+                            </select>
+                        </div>
+                        <div class="hora">
+                            <p class="f-reserva-tu-mesa-p">Telefono</p>
+                            <input class="input-reservar" type="tel" id="telefono" placeholder="+598 9X XXX XXX">
+                        </div>
+                        
+                    </div>
+                    <p class="f-reserva-tu-mesa-p">Ocasión Especial (Opcional)</p>
+                    <select class="select-reservar" id="ocasion">
+                        <option value="Sin ocacion Espeical">Sin ocacion Espeical</option>
+                        <option value="Cumpleaños">Cumpleaños</option>
+                        <option value="Aniversario">Aniversario</option>
+                        <option value="Negocios">Negocios</option>
+                        <option value="Reunion de amigos">Reunion de Amigos</option>
+                        <option value="Otros">Otros</option>
+                    </select>
+                    <p class="f-reserva-tu-mesa-p">Notas Adiocionales</p>
+                    <textarea class="input-reservar" id="nota-adicional" placeholder="Alergias, Preferencias, Pedidos especiales"></textarea>
+                    <a href="#" id="btn-whatsapp" class="f-confirmar-reserva">Confirma via Whatsapp</a>
+                </div>
+            </div>
+        </div>
+
+
+        
+    </section>
+
+                                                                        <div class="espaciox9ds"></div>
+
+    
+<footer>
+    <h1 class="autor">Demo Diseñada por @Tiagvh.1</h1>
+    <h5 class="derechos">Todos los derechos Reservados</h5>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
